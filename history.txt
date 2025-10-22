@@ -1,0 +1,78 @@
+    1* it --version
+    2  cd
+    3  ssh-keygen
+    4  cat .ssh/id_ed25519.pub
+    5  ssh ec2-user@linux.itcareerhub.de
+    6   cd
+    7  echo "# shiny-telegram" >> README.md
+    8  ls -la
+    9  git checkout -b test
+   10  ls
+   11  git clone git@github.com:strk54/git-branch.git
+   12  pwd
+   13  ssh ec2-user@linux.itcareerhub.de
+   14  git init
+   15  git branch -M main
+   16  ls -l
+   17  git status
+   18  git commit -m "added foto"
+   19  git config --global user.name "Strk"
+   20  git config --global user.email "mstarikov54@gmail.com"
+   21  git status
+   22  git commit -m "added foto"
+   23  #!/bin/bash
+   24  set -e
+   25  echo "now: " $(date)
+   26  echo "hello" $USER"!"
+   27  pwd
+   28  ps -ef | grep bioset | grep -v grep | wc -l
+   29  ls -l /etc/passwd | awk '{print $1}'
+   30  #!/bin/bash
+   31  set -e
+   32  echo "now: " $(date)
+   33  echo "hello" $USER"!"
+   34  pwd
+   35  ps -ef | grep bioset | grep -v grep | wc -l
+   36  ls -l /etc/passwd | awk '{print $1}'
+   37  git clone git@github.com:strk54/git-branch.git
+   38  ls
+   39  git checkout -b gitignore
+   40  cd git-branch
+   41  git checkout -b gitignore
+   42  vi
+   43  vi .gitignore
+   44  git status
+   45  git add .gitignore
+   46  git commit -m "added gitignore"
+   47  git push origin gitignore
+   48  scp ec2-user@ip-10-0-42-153:/home/ec2-user/permission_checker.sh .
+   49  scp ec2-user@ip-10-0-42-153:/home/ec2-user/permission_checker.sh .
+   50  ssh ec2-user@linux.itcareerhub.de
+   51  ssh ec2-user@linux.itcareerhub.de
+   52  git@github.com:strk54/potential-garbanzo.git
+   53  git clone git@github.com:strk54/potential-garbanzo.git
+   54  cd potential-garbanzo/
+   55  ls
+   56  ls -a
+   57  git remote -v
+   58  git checkout -b feature
+   59  echo "# Linux HW" > README.md
+   60  echo "" >> README.md
+   61  echo "HW_12" >> README.md 
+   62  echo "*.log" >> .gitignore
+   63  git status+
+   64  git status
+   65  git add README.md .gitignore 
+   66  git commit -m "Update README.md and .gitignore"
+   67  git push origin feature
+   68  git commit --amend
+   69  git commit --amend
+   70  git checkout main
+   71  git pull
+   72  git checkout feature
+   73  git log
+   74  git checkout main
+   75  git merge feature 
+   76  git push origin main
+   77  gistory > history.txt
+   78  history > history.txt
